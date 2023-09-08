@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora gratuita</title>
+</head>
+<body>
+    <header>
+        <h1>Calcule suas notas</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Calcule a nota final do trimestre para qualquer matéria</h2>
+            <p>Nota do primeiro trabalho: <input type="number" name="npt" id="npt" min="0" max="10"></p>
+
+            <p>Nota do segundo trabalho: <input type="number" name="nst" id="nst" min="0" max="10"></p>
+
+            <p>Nota da prova: <input type="number" name="np" id="np" min="0" max="10"></p>
+            
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+        </div>
+
+        <div id="resultA">
+        
+        </div>
+
+        <div>
+            <h2>Calcule a média final do ano</h2>
+
+            <p>Nota do primeiro trimestre <input type="number" name="ntum" id="ntum" min="0" max="10"></p>
+
+            <p>Nota do segundo trimestre <input type="number" name="ntdois" id="ntdois" min="0" max="10"></p>
+
+            <p>Nota do terceiro trimestre <input type="number" name="nttres" id="nttres" min="0" max="10"></p>
+
+            <input type="button" value="Verificar" onclick="verificar()">
+
+        </div>
+
+        <div id="resultB"></div>
+    </main>
+
+    <footer>
+        <p> &copy; Laura Messias</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

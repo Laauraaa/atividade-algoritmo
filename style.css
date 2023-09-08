@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(80deg, #4D3621 20%, #8C633C);
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color:#CC9058;
+    text-shadow: 2px 2px 6px #332416;
+}
+
+main {
+    background-color: #CC9058;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 8px #402D1C;
+}
+
+footer {
+    color:#CC9058;
+    text-align: center;
+    text-shadow: 1px 1px 4px #332416b5;
+}
+
+input {
+    background-color: #b6814f;
+    border: none;
+}
+
